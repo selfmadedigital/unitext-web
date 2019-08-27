@@ -8,17 +8,17 @@ $mysqli = new mysqli("w1kr9ijlozl9l79i.chr7pe7iynqr.eu-west-1.rds.amazonaws.com"
 
 	$lang = 'sk';
 	$captcha_lang = 'sk';
-	$uri = explode('.',$_SERVER['HTTP_HOST']);
-	foreach ($uri as $uripart) {
-		if($uripart == 'sk' || $uripart == 'cz'){
-			$lang = $uripart;
-			if($lang == 'cz'){
-				$captcha_lang = 'cs';
-			}else{
-				$captcha_lang = $lang;
-			}
-		}
-	}
+	// $uri = explode('.',$_SERVER['HTTP_HOST']);
+	// foreach ($uri as $uripart) {
+	// 	if($uripart == 'sk' || $uripart == 'cz'){
+	// 		$lang = $uripart;
+	// 		if($lang == 'cz'){
+	// 			$captcha_lang = 'cs';
+	// 		}else{
+	// 			$captcha_lang = $lang;
+	// 		}
+	// 	}
+	// }
 
 	$content = array();
 
