@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "unitext_dev", "zRW5VBpzmRDC5q2h", "unitext_prod");
+$mysqli = new mysqli("w1kr9ijlozl9l79i.chr7pe7iynqr.eu-west-1.rds.amazonaws.com", "noqegorlfezm7yyt", "ger6tv16a6w6meaa", "tohn37uf3jlm1u2r");
 	if ($mysqli->connect_errno) {
     	echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 	}
